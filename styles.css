@@ -115,3 +115,22 @@ footer {
     transform: translateY(-4px);
     box-shadow: 0 6px 18px rgba(0,0,0,0.06);
 }
+
+.blog-list {
+    margin-top: 30px;
+    display: grid;
+    gap: 30px;
+}
+
+.blog-post {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-post:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
