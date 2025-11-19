@@ -1,50 +1,138 @@
-
-<!-- PROJECTS PAGE (projects.html) -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects | Madeleine Kennedy</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="favicon.png">
-</head>
-<body>
-
-<nav>
-    <div class="logo">
-    <img src="logo.png" alt="Madeleine Kennedy Logo">
-    </div>
-    <ul>
+    <meta
+      name="description"
+      content="A collection of projects by Madeleine Kennedy - Marketing Innovation & Analytics professional."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="index.html" aria-label="Home">
+          <img src="logo.png" alt="Madeleine Kennedy Logo" />
+        </a>
+      </div>
+      <button
+        class="menu-toggle"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="projects.html">Projects</a></li>
-        <li><a href="resume.html">Resume</a></li>
         <li><a href="blog.html">Blog</a></li>
+        <li><a href="resume.html">Resume</a></li>
         <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+      </ul>
+    </nav>
 
-<section>
-    <h1>Projects</h1>
-    <p>A growing collection of things I’ve designed, built, analyzed, or created. More coming soon.</p>
+    <main>
+      <section>
+        <h1>Projects</h1>
+        <p>
+          A growing collection of things I've designed, built, analyzed, or
+          created. Each project represents a learning experience and an
+          opportunity to apply marketing strategy, analytics, and creative
+          problem-solving.
+        </p>
 
-    <div class="project-grid">
-        <div class="project-card">
-            <h2>Project Title</h2>
-            <p>Short description of the project. You can describe what tools you used, what the goal was, and what you learned.</p>
-            <a class="button" href="#">View Project</a>
+        <div class="project-grid">
+          <div class="project-card" data-category="web">
+            <h3>Portfolio Website</h3>
+            <p>
+              A fully responsive, modern portfolio website built from scratch.
+              Features clean design, smooth animations, and a focus on user
+              experience and accessibility. This project demonstrates front-end
+              development skills and attention to detail in both design and
+              code.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Responsive Design</span>
+              <span class="tech-tag">Accessibility</span>
+            </div>
+            <div class="project-links">
+              <a href="index.html" class="button button-primary">View Live</a>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="marketing">
+            <h3>Marketing Analytics Dashboard</h3>
+            <p>
+              An analytics project focused on data visualization and insights.
+              This dashboard helps track key marketing metrics, campaign
+              performance, and provides actionable insights for data-driven
+              decision making.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Data Analytics</span>
+              <span class="tech-tag">Data Visualization</span>
+              <span class="tech-tag">Marketing Strategy</span>
+              <span class="tech-tag">Excel/Google Sheets</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="button button-secondary">Case Study</a>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="design">
+            <h3>Brand Identity Design</h3>
+            <p>
+              A comprehensive brand identity project that includes logo design,
+              color palette development, typography selection, and brand
+              guidelines. This project showcases creative direction and
+              strategic thinking in brand development.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Brand Strategy</span>
+              <span class="tech-tag">Creative Direction</span>
+              <span class="tech-tag">Design</span>
+              <span class="tech-tag">Figma</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="button button-secondary">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="marketing">
+            <h3>Content Strategy Campaign</h3>
+            <p>
+              Developed and executed a multi-channel content marketing campaign.
+              This project involved content planning, creation, distribution
+              strategy, and performance measurement across various digital
+              platforms.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Content Strategy</span>
+              <span class="tech-tag">Social Media</span>
+              <span class="tech-tag">Content Creation</span>
+              <span class="tech-tag">Campaign Management</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="button button-secondary">Learn More</a>
+            </div>
+          </div>
         </div>
+      </section>
+    </main>
 
-        <div class="project-card">
-            <h2>Project Title</h2>
-            <p>Short description of the project. Replace this placeholder with a real project whenever you're ready.</p>
-            <a class="button" href="#">View Project</a>
-        </div>
-    </div>
-</section>
+    <footer>
+      <p>&copy; 2025 Madeleine Kennedy. All rights reserved.</p>
+    </footer>
 
-<footer>© 2025 Madeleine Kennedy</footer>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
