@@ -1,0 +1,151 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #ffffff;
+    color: #222222;
+    line-height: 1.6;
+    padding-top: 80px; /* makes space for the fixed nav */
+}
+
+/* Navigation */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #d8a7b1; /* muted pink accent */
+    letter-spacing: 0.5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+nav ul li a:hover {
+    color: #d8a7b1;
+}
+
+/* Layout */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid #d8a7b1;
+    color: #d8a7b1;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    background: #d8a7b1;
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: #777;
+    border-top: 1px solid #f2f2f2;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.project-card {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.blog-list {
+    margin-top: 30px;
+    display: grid;
+    gap: 30px;
+}
+
+.blog-post {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-post:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.contact-box {
+margin-top: 30px;
+padding: 30px;
+border: 1px solid #eee;
+border-radius: 6px;
+background: #fff;
+max-width: 600px;
+}
+
+.logo img {
+    height: 40px; /* adjust size */
+    width: auto;  /* keeps proportions */
+    display: block;
+}
