@@ -185,8 +185,8 @@ export default function App() {
               </p>
               
               <div className="profile-stats">
-                <span><strong>530</strong> posts</span>
-                <span><strong>3.7k</strong> followers</span>
+                <span><strong>35</strong> posts</span>
+                <span><strong>703</strong> followers</span>
               </div>
             </div>
           </div>
