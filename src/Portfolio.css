@@ -638,9 +638,13 @@ body {
   pointer-events: auto;
 }
 
+/* Force the image layer to obey the rounded corners too */
 .story-image {
-  aspect-ratio: 9 / 16;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.story-image-file {
+  border-radius: 24px;
+  display: block; /* prevents tiny gaps */
 }
