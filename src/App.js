@@ -34,10 +34,17 @@ export default function App() {
   {
     id: 1,
     bg: 'gradient-rose-orange',
+<<<<<<< HEAD
     title: 'TullyMD Instagram Series',
     description: 'As part of my Senior Design Project, the Hoboken-based OBGYN that my team is working with, Dr. Nicole Tully, asked us to create infographic posts for her Instagram account. I decided, for the month of November 2025, to start a series entitled, "Fourth Trimester, Unfiltered". I created a logo for the series using Canva, and every Sunday we prepared a postpartum infographic for Dr. Tully to post on Instagram. The idea was simple yet intentional. "You are not alone." I sought to create a sense of community among the patients that Dr. Tully already sees, and to send out a warm welcome to new patients looking to start seeing Dr. Tully. And this was absolutely accomplished. There was consistent engagement on all "Fourth Trimester, Unfiltered" posts, including likes and comments.',
     details: 'Fourth Trimester, Unfiltered',
     tags: ['content creation', 'engagement'],
+=======
+    title: 'Palette App',
+    description: 'Redesigned the entire flow to make picking colors feel less overwhelming.',
+    details: 'iOS - this spring',
+    tags: ['app design', 'ux'],
+>>>>>>> 89b36f551c8b517565c66e63a2b58299f6b0f93c
     video: ftuVideo         // 👈 add this
   },
   {
@@ -219,9 +226,15 @@ export default function App() {
               </div>
             </div>
 
+<<<<<<< HEAD
             <p className="story-hint">
               {currentStory < stories.length - 1 ? 'Tap right for next →' : 'Tap left to go back ←'}
             </p>
+=======
+            {/*<p className="story-hint">
+              {currentStory < stories.length - 1 ? 'Tap right for next →' : 'Tap left to go back ←'}
+            </p>*/}
+>>>>>>> 89b36f551c8b517565c66e63a2b58299f6b0f93c
           </div>
         </section>
 
