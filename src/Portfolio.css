@@ -680,3 +680,11 @@ body {
   object-fit: cover;
   display: block;
 }
+
+.story-card {
+  background: hotpink !important;
+  border: 6px solid lime !important;
+  border-radius: 40px !important;
+  overflow: hidden !important;
+  clip-path: inset(0 round 40px) !important;
+}
