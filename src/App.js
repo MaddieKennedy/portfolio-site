@@ -218,16 +218,6 @@ export default function App() {
                 </div>
               </div>
             </div>
-
-<<<<<<< HEAD
-            <p className="story-hint">
-              {currentStory < stories.length - 1 ? 'Tap right for next →' : 'Tap left to go back ←'}
-            </p>
-=======
-            {/*<p className="story-hint">
-              {currentStory < stories.length - 1 ? 'Tap right for next →' : 'Tap left to go back ←'}
-            </p>*/}
->>>>>>> 89b36f551c8b517565c66e63a2b58299f6b0f93c
           </div>
         </section>
 
