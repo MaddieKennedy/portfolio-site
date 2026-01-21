@@ -43,7 +43,7 @@ export default function App() {
   {
     id: 2,
     bg: 'gradient-blue-rose',
-    title: 'Local Coffee',
+    title: 'Example',
     description: 'Branding for a new spot in Williamsburg.',
     details: 'branding - feb',
     tags: ['identity', 'print'],
