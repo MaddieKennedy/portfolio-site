@@ -10,7 +10,7 @@ html, body {
 
 body {
   margin: 0;
-  background-color: #fed0e9; /* SAME as .portfolio */
+  background-color: #fdf2f8; /* SAME as .portfolio */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -19,7 +19,7 @@ body {
 }
 
 .portfolio {
-  background-color: #fed0e9;
+  background-color: #fdf2f8;
   min-height: 100vh;
 }
 
