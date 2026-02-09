@@ -85,8 +85,6 @@ export default function App() {
     tags: ['content creation', 'healthcare marketing'],
     video: pcosvideo                // or just leave video out
   },
-  
-  // ...rest can be video: null or no video field
 ];
 
 
