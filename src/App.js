@@ -35,7 +35,7 @@ export default function App() {
     id: 1,
     bg: 'gradient-rose-orange',
     title: 'TullyMD Instagram Series',
-    description: 'As part of my Senior Design Project, the Hoboken-based OBGYN that my team is working with, Dr. Nicole Tully, asked us to create infographic posts to help market herself on Instagram. I decided, for the month of November 2025, to start a series entitled, "Fourth Trimester, Unfiltered." I created a logo for the series using Canva, and every Sunday we prepared a postpartum infographic for Dr. Tully to post on Instagram. The idea was simple yet intentional; "you are not alone." I sought to create a sense of community among the patients that Dr. Tully already sees, and to send out a warm welcome to new patients looking to start seeing Dr. Tully. And this was absolutely accomplished. There was consistent engagement on all "Fourth Trimester, Unfiltered" posts, including likes and comments, helping Dr. Tully market her business better on Instagram.',
+    description: 'As part of my Senior Design Project, I partnered with Hoboken-based OBGYN Dr. Nicole Tully to create a month-long Instagram series titled “Fourth Trimester, Unfiltered.” I designed branded infographic content and a series logo in Canva, publishing weekly posts focused on postpartum education and community-building. The campaign emphasized empathy and patient connection, resulting in consistent engagement through likes and comments and strengthening Instagram presence.',
     details: 'Fourth Trimester, Unfiltered',
     tags: ['content creation', 'engagement'],
     video: ftuVideo         // 👈 add this
@@ -44,7 +44,7 @@ export default function App() {
     id: 2,
     bg: 'gradient-rose-orange',
     title: 'Taste of Boken',
-    description: 'I run a Hoboken food review Instagram account just for fun and experimentation with social media. This is one review I posted about my favorite salad at a Hoboken favorite of mine and many others, Alfalfa. My goal with Taste of Boken is to play around with video editing on CapCut while spreading awareness about wonderful Hoboken businesses at the same time!',
+    description: 'Taste of Boken is a Hoboken-based food review Instagram account I run as a creative passion project and testing ground for social media strategy. This post featured a review of a popular local restaurant, Alfalfa, with a focus on short-form video editing using CapCut. The account allows me to experiment with trends, storytelling, and engagement while supporting local businesses.',
     details: 'Alfalfa Review',
     tags: ['passion project', 'food reviews'],
     video: tobVideo1         // 👈 add this
@@ -53,7 +53,7 @@ export default function App() {
     id: 3,
     bg: 'gradient-rose-orange',
     title: 'Oak House Events Promotional Video',
-    description: 'I also film events at The Oak House to make fun videos showcasing all that the restaurant has to offer to those looking to host! With this specific video, I sought to (1) land on the Explore Pages of young women looking for cool and trendy bridal shower venue ideas and (2) inform Oak House regulars of the private event opportunities and excite them about the possibilities for their own events. The video was liked and shared by many, and helped promote the restaurant and all of its offerings.',
+    description: 'I created this promotional video for The Oak House to highlight its private event offerings, with a strategic focus on reaching young women searching for bridal shower and celebration venues. The video combined event footage with trend-aware editing to increase discoverability and excitement. The content was well received, earning strong engagement through likes and shares while promoting the event capabilities of the restaurant.',
     details: 'An OH Bridal Shower',
     tags: ['event content', 'restauranttok'],
     video: ohVideo1                // or just leave video out
@@ -62,7 +62,7 @@ export default function App() {
     id: 4,
     bg: 'gradient-rose-orange',
     title: 'The Oak House Promotional Video',
-    description: 'During my time working as a host at The Oak House, I also film and create promotional content for the restaurant. While researching restaurant industry social media trends, I came across the simple yet beautiful and impactful idea of putting together short clips of Oak House food and drinks to a trending sound implying that the viewer just needs "a little bit of this," this being The Oak House. The short and sweet idea accumulated thousands of views on The Oak House Instagram, exciting people over the good-looking and even better-tasting food and drinks at the restaurant!',
+    description: 'While working as a host at The Oak House, I produce promotional social media content inspired by emerging restaurant and TikTok trends. This video used a popular audio format to showcase food and drinks in a visually appealing, fast-paced style. The short-form content generated thousands of views and helped drive excitement around the offerings of the restaurant.',
     details: 'I Just Needed A Little Oak House!',
     tags: ['content creation', 'trend tracking'],
     video: ohVideo2                // or just leave video out
@@ -71,7 +71,7 @@ export default function App() {
     id: 5,
     bg: 'gradient-rose-orange',
     title: 'Taste of Boken',
-    description: 'This video posted on @tasteofboken was an absolute favorite of mine. As someone who has dealt with disordered eating in the past, I am deeply passionate about inspiring others to break the cycle of feeling the need to diet and fit a certain look. This video spreads the message that I believe is so important: life is worth living, so eat food for fuel AND for enjoyment. Food is fun, and that is part of why I started Taste of Boken! If this video reached just one person and helped them love themselves and eat something good after they watched it, then my mission was accomplished',
+    description: 'This video, posted on @tasteofboken, focused on promoting a healthy, positive relationship with food. The content emphasized food as both nourishment and enjoyment, aligning with my broader goal of using social media to share meaningful, values-driven messages. This project reflects my interest in creating content that connects emotionally with audiences while maintaining authenticity.',
     details: 'Life Is Worth Living',
     tags: ['inspirational', 'foodie'],
     video: tobVideo2                // or just leave video out
@@ -80,7 +80,7 @@ export default function App() {
     id: 6,
     bg: 'gradient-rose-orange',
     title: 'Dr. Tully Concept Post',
-    description: 'Early on during my Senior Design Project, I made a couple of concept Instagram posts for Dr. Tully to look through and give feedback on, letting me know if they followed the direction in which she wanted her social media accounts to go. This was one of those concept posts. To spread awareness about PCOS while simultaneously marketing for Dr. Tully and her practice, I made a short Instagram carousel infographic. The goal of the post would have been to reach current and new patients, keeping them informed but also reminding them that Dr. Tully is always there for them.',
+    description: 'As part of the early planning phase of my Senior Design Project, I created concept Instagram posts for Dr. Nicole Tully to align on visual direction and messaging. This carousel focused on PCOS awareness, combining educational content with empathetic branding. The goal was to inform both current and prospective patients while reinforcing trust in her practice.',
     details: 'PCOS Awareness',
     tags: ['content creation', 'healthcare marketing'],
     video: pcosvideo                // or just leave video out
