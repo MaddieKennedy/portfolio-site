@@ -341,7 +341,6 @@ export default function App() {
             </a>
           </div>
 
-          <p className="copyright">© Madeleine Kennedy 2025</p>
         </div>
       </section>
     </div>
